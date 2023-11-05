@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASLearn| Homepage</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="header">
+            <img src="images/logo.png" id="logo-pic">
+            <div class="nav">
+                <ul>
+                    <li class="nav-li">
+                        <a class="" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="" href="about.html">About</a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="" href="learning.html">Learning</a>
+                    </li>
+                    <li class="nav-li" id="contact-nav">
+                        <a class="" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container" id="container-1">
+            <div class="info-right">
+                <h1><span style="color:#037090">Build</span> 
+                    Your Foundation From Sign Languages 
+                    <span style="color:#F07167">With</span> 
+                    <span style="color:#00AFB9" class="auto-type"> </span> 
+                    </h1>
+                <p id="head-desc">We aim to provide you the best resources to help hearing-impaired students
+                    below the age of 10 learn sign languages.</p>
+                <div class="buttons">
+                    <button id="about-btn"><a href="about.html">About Us</a></button>
+                    <button id="start-btn"><a href="learning.html">Start Now</a></button>
+                </div>
+            </div>
+            <div class="images-left">
+                <img src="images/homepage pic-cuate.png" id="mainpic">
+            </div>
+        </section> 
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", 
+                                    {strings: ['ASLearn'], 
+                                    typeSpeed: 80,
+                                    backSpeed: 100,
+                                    loop: true
+                                })
+        </script>
+    </body>
+</html>

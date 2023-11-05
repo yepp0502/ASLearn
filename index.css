@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 12px;
+    margin: 10px 20px;
+    padding: 0;
+    font-family: inter;
+}
+
+/* header */
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-pic
+{
+    width: 12%;
+    height: 12%;
+    margin-top: 2%;
+}
+
+.nav-li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#contact-nav
+{
+    background-image: linear-gradient(#00AFB9, #0498A1);
+    padding: 8px 5px;
+    border-radius: 50px;
+}
+#contact-nav a 
+{
+    color: #fff;
+}
+/* end of header */
+.container
+{
+    display: flex;
+}
+/* container 1 */
+#container-1
+{
+    /* border: #000 2px solid; */
+    margin-top: 50px;
+}
+.info-right
+{
+    /* border: #000 2px solid; */
+    width: 250%;
+}
+span
+{
+    margin: 0;
+    padding: 0;
+}
+
+#mainpic
+{
+    margin: 50px 80px 0 0;
+    width: 90%;
+}
+
+h1
+{
+    font-size: 65px;
+    font-weight: 800;
+}
+
+p
+{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.buttons
+{
+    /* border: #000 1px solid; */
+    width: 60%;
+}
+
+.buttons button
+{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    justify-content: space-around;
+}
+
+#about-btn
+{
+    background-image: linear-gradient(#00AFB9, #0498A1);
+    border-radius: 50px;
+    padding: 8px 30px;
+    color: #fff;
+    margin-right: 50px;
+}
+
+#about-btn a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+#start-btn a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+#head-desc
+{
+    /* width: 90%; */
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+#container-2
+{
+    /* border: #000 2px solid; */
+}
+
+.info-block
+{
+    
+}
