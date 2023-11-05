@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASLearn</title>
+    <style>
+        h1 {text-align: center;}
+        /* Style the video container */
+        #video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh; /* Adjust to control the size of the video container */
+        }
+        #mirror-video {
+            width: auto;
+            height: 80%;
+            transform: scaleX(-1); /* Mirror the video horizontally */
+            border-radius: 40px; /* Add rounded edges to the video element */
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <img src="images/logo.png" id="logo-pic">
+        <div class="nav">
+            <ul>
+                <li class="nav-li">
+                    <a class="" href="index.html">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a class="" href="about.html">About</a>
+                </li>
+                <li class="nav-li">
+                    <a class="" href="learning.html">Learning</a>
+                </li>
+                <li class="nav-li" id="contact-nav">
+                    <a class="" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <h1 style="font-size: 30px; margin-top:30px;">Sign the animal in ASL!</h1>
+    
+    <!-- Video container for the webcam feed -->
+    <div id="video-container">
+        <video id="mirror-video" autoplay playsinline></video>
+    </div>
+
+    <!-- JavaScript to access the webcam and display the feed -->
+    <script>
+        (async function () {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                const videoElement = document.getElementById("mirror-video");
+                videoElement.srcObject = stream;
+            } catch (error) {
+                console.error("Error accessing webcam:", error);
+            }
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 12px;
+    margin: 10px 20px;
+    padding: 0;
+    font-family: inter;
+}
+
+/* header */
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-pic
+{
+    width: 12%;
+    height: 12%;
+    margin-top: 2%;
+}
+
+.nav-li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#contact-nav
+{
+    background-image: linear-gradient(#00AFB9, #0498A1);
+    padding: 8px 5px;
+    border-radius: 50px;
+}
+#contact-nav a 
+{
+    color: #fff;
+}
+
+#container-1
+{
+    display: flex;
+}
+
+#container-1 div
+{
+    width: 45%;
+}
+
+.container h1
+{
+    font-size: 40px;
+}
+
+#container-1 h1
+{
+    color: #F07167;
+    padding: 0;
+    margin-top: 0;
+}
+
+#container-1 h3
+{
+    font-size: 25px;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+#container-1 p
+{
+    width: 60%;
+    font-size: 18px;
+}
+
+#process-img
+{
+    width: 20%;
+    height: auto;
+    margin-left: 0;
+    display: inline;
+}
+
+#container-2
+{
+    text-align: center;
+    margin: 0;
+}
+
+#container-2 p
+{
+    font-size: 18px;
+    padding: 0;
+    margin-top: 0;
+}
+
+#container-2 h1
+{
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 35px;
+}
+
+#container-3
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
+    margin: 20px 0;
+}
+#container-3 div
+{
+    display: block;
+    width: 350px;
+    padding: 10px 0;
+    margin-top: 0;
+    border-radius: 8px;
+}
+
+#container-3 div img
+{
+    width: 40px;
+    height: auto;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+h4
+{
+    color: #037090;
+    font-weight: 600;
+    display: block;
+    text-align: start;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+#container-3 p
+{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 0;
+}
+
+#simple-div
+{
+    background-color: #FFAD63;
+    box-shadow: 1px 0px 5px 1px #FFAD63;
+}
+
+#flascards-div
+{
+    background-color: #00AFB9;
+    box-shadow: 1px 0px 5px 1px #00AFB9;
+}
+
+#clear-div
+{
+    background-color: #F07167;
+    box-shadow: 1px 0px 5px 1px #F07167;
+}

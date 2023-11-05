@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 12px;
+    margin: 10px 20px;
+    padding: 0;
+    font-family: inter;
+}
+
+/* header */
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-pic
+{
+    width: 12%;
+    height: 12%;
+    margin-top: 2%;
+}
+
+.nav-li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#contact-nav
+{
+    background-image: linear-gradient(#00AFB9, #0498A1);
+    padding: 8px 5px;
+    border-radius: 50px;
+}
+#contact-nav a 
+{
+    color: #fff;
+}
+
+.whole
+{
+    display: inline-flex;
+}
+
+.container
+{
+    margin: 0;
+}
+
+#logo
+{
+    width: 200px;
+    margin-top: 0;
+}
+
+.info h4
+{
+    font-size: 20px;
+}
+
+#container-1
+{
+    padding: 30px 0;
+}
+
+#container-1 p
+{
+    font-size: 18px;
+}
+
+#container-1 div
+{
+    display: block;
+}
+
+#right-container
+{
+    width: 550px;
+    height: 500px;
+    margin-left: 100px;
+    border: #585656 2px solid;
+    box-shadow: 1px 0px 5px 1px #d7d7d7 ;
+    border-radius: 8px;
+}
+
+#social-img
+{
+    display: inline-flex;
+    width: 80px;
+    margin: -5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#container-2
+{
+    padding: 0;
+    margin-left: 10%;
+}
+#contact-img
+{
+    width: 500px;
+    margin: 0;
+}
